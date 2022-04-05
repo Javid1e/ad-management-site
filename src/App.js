@@ -1,9 +1,13 @@
-
+import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
-    <div>
-     
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Link to=""></Link>
+        <Route path="" components />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
